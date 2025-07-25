@@ -6,7 +6,7 @@ body {
 }
 
 #pokemon-info {
-  margin: auto auto;
+  margin: 5% auto auto auto;
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -22,4 +22,12 @@ table th,
 td {
   text-align: center;
   padding: 5px 5px;
+}
+
+#detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 0 auto;
 }
